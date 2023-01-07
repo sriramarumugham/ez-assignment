@@ -1,10 +1,17 @@
-import '../styles/App.css';
+import "../styles/App.css";
+
+import { Navbar } from "./index";
+import Clients from "./Clients";
+import Display from "./Display";
+import CompanyProfile from "./CompanyProfile";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold  text-green-500">
-      Hello world!
-    </h1>
+    <div className="bg-white">
+      <Navbar />
+      {/* <Clients /> */}
+      <Display />
+    </div>
   );
 }
 
