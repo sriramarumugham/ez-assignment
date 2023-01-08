@@ -25,6 +25,8 @@ function Timeline() {
             fold ? "hidden" : "block"
           }`}
         >
+          {/* components for each company */}
+          <Company />
           <Company />
           <Company />
           <Company />
